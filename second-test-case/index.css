@@ -1,10 +1,27 @@
-.page {}
-
-.page__title {
-    text-align: center;
+.partners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
 }
 
-.page__img-block {
+.parters__title {
+    text-align: center;
+    font-size: 14pt;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.partners__logo-wrapper {
     display: flex;
     flex-wrap: wrap;
+    max-width: 700px;
+}
+
+.partners__logo {
+    width: 100px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }

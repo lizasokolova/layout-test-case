@@ -4,17 +4,18 @@
 <head>
     <meta charset="utf-8">
     <title>Qsoft first test case</title>
-    <style>
-        .card__title::after {
-            width: 30px;
-            height: 3px;
-            color: #400101;
-        }
-    </style>
 </head>
 
 <body class="page">
-
+    <style>
+        .card__title::after {
+            content: '';
+            display: block;
+            width: 30px;
+            height: 3px;
+            background-color: #400101;
+        }
+    </style>
     <div class="page__header header">
         <div class="header__container">
 
@@ -27,48 +28,54 @@
                 </ul>
                 <span class="header__telephone">8 (888) 888-88-88</span>
             </div>
-
-            <div class="header__title">
-                Лидер в разработке интегрированных и высоконагруженных интернет-решений
-            </div>
-
-            <button class="header__button">
-                Заказать
-            </button>
-
         </div>
     </div>
 
-    <div class="page__news news">
-        <div class="page__card card">
-            <img class="card__image" src="">
-            <div class="card__title">
-                Разработка самого крупного портала на Битриксе в России
+    <div class="page__main main">
+
+        <h1 class="main__title">
+            Лидер в разработке интегрированных и высоконагруженных интернет-решений
+        </h1>
+
+        <button class="main__button">
+            Заказать
+        </button>
+
+        <div class="main__news news">
+            <h2 class="news__title">
+                Новости
+            </h2>
+            <div class="main__card card">
+                <img class="card__image" src="" alt="Стикеры на стене">
+                <h3 class="card__title">
+                    Разработка самого крупного портала на Битриксе в России
+                </h3>
+                <div class="card__text">
+                    Смотрите видео и читайте наш новый кейс о том, как мы объединили на одной платформе сотрудников с
+                    производства в офисе Новолипецкого металлургического
+                </div>
             </div>
-            <div class="card__text">
-                Смотрите видео и читайте наш новый кейс о том, как мы объединили на одной платформе сотрудников с
-                производства в офисе Новолипецкого металлургического
+            <div class="main__card card">
+                <img class="card__image" src="Человек работает за ноутбуком">
+                <h3 class="card__title">
+                    Как выбрать ИТ-платформу для интернет-магазина
+                </h3>
+                <div class="card__text">
+                    Об этом сегодня расскажет генеральный директор Qsoft Виталий Чесноков электронной коммерции iWENGO
+                </div>
+            </div>
+            <div class="main__card card">
+                <img class="card__image" src="Два человека рядом с рабочим столом">
+                <h3 class="card__title">
+                    Мы участвуем в выставке ECOM Expo и угощаем кофе!
+                </h3>
+                <div class="card__text">
+                    Выступили с докладом про цифровую трансформацию клиентского сервиса. В ходе доклада были затронуты
+                    вопросы построения единой эко-системы для повышения эффективности работы с конечными клиентами
+                </div>
             </div>
         </div>
-        <div class="page__card card">
-            <img class="card__image" src="">
-            <div class="card__title">
-                Как выбрать ИТ-платформу для интернет-магазина
-            </div>
-            <div class="card__text">
-                Об этом сегодня расскажет генеральный директор Qsoft Виталий Чесноков электронной коммерции iWENGO
-            </div>
-        </div>
-        <div class="page__card card">
-            <img class="card__image" src="">
-            <div class="card__title">
-                Мы участвуем в выставке ECOM Expo и угощаем кофе!
-            </div>
-            <div class="card__text">
-                Выступили с докладом про цифровую трансформацию клиентского сервиса. В ходе доклада были затронуты
-                вопросы построения единой эко-системы для повышения эффективности работы с конечными клиентами
-            </div>
-        </div>
+
     </div>
 
     <div class="page__footer footer">
