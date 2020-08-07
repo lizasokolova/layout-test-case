@@ -25,3 +25,7 @@
     margin-right: 10px;
     margin-bottom: 10px;
 }
+
+.partners__logo:last-child {
+    margin-right: 0;
+}
