@@ -1,0 +1,10 @@
+.page {}
+
+.page__title {
+    text-align: center;
+}
+
+.page__img-block {
+    display: flex;
+    flex-wrap: wrap;
+}
